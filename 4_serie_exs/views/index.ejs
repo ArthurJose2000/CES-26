@@ -1,0 +1,35 @@
+<!-- 
+Instituto Tecnológico de Aeronáutica
+2º semestre - 2021
+Professor Edgar Yano
+Arthur José de Sousa Rodrigues COMP-23
+Quarta série de exercícios
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4ª série de exercícios</title>
+</head>
+
+<body>
+    <h1>Upload de arquivos via método POST</h1>
+    <form method="POST" enctype="multipart/form-data" action="/upload">
+        <input type="file" name="file" style="width: 400px;"><br>
+        <input type="submit" name="Upload" value="Upload">
+    </form>
+    <p>*Os arquivos ficarão armazenados na pasta 'uploads'.</p>
+    <br><br><br>
+    <h1>Conversão de minutos para segundos via método GET</h1>
+    <form method="GET" enctype="multipart/form-data" action="/convert">
+        <input type="text" name="conversion" placeholder="Digite a quantidade de tempo." style="width: 200px;">
+        <input type="submit" value="Converter">
+    </form>
+
+</body>
+
+</html>
